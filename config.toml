@@ -1,0 +1,36 @@
+baseURL = "http://florianeinfalt.com/"
+languageCode = "en-gb"
+title = "Florian Einfalt – Developer"
+theme = "Hucore"
+
+copyright = "&copy; 2018 Florian Einfalt"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+description = "Your description here"
+keywords = ["keyword 1", "keyword 2", "keyword 3"]
+author = "Florian Einfalt"
+sharingicons = false
+
+[params.highlight]
+style = "github"
+languages = ["python", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/florianeinfalt"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/florianeinfalt"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "https://linkedin.com/in/florianeinfalt"
+fa_icon = "fa-linkedin-square"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
