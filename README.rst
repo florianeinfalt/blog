@@ -1,4 +1,4 @@
-{{ cookiecutter.project_slug }}
-===============================
+Blog
+====
 
-{{ cookiecutter.project_short_description }}
+My personal blog
