@@ -4,7 +4,7 @@ date: 2018-08-15T21:45:17+01:00
 description: "A simple hook decorator in Python"
 categories: ["development"]
 tags: ["python", "hooks"]
-draft: true
+draft: false
 author: "Florian Einfalt"
 ---
 
