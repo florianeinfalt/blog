@@ -1,4 +1,4 @@
-baseURL = "http://florianeinfalt.com/"
+baseURL = "https://florianeinfalt.de"
 languageCode = "en-gb"
 title = "Florian Einfalt – Developer"
 theme = "Hucore"
@@ -10,14 +10,14 @@ tag = "tags"
 category = "categories"
 
 [params]
-description = "Your description here"
-keywords = ["keyword 1", "keyword 2", "keyword 3"]
+description = "A personal blog, mostly about Python development"
+keywords = ["development", "python"]
 author = "Florian Einfalt"
 sharingicons = false
 
 [params.highlight]
 style = "github"
-languages = ["python", "dockerfile"]
+languages = ["python", "python3", "dockerfile"]
 
 [[params.social]]
 url = "https://github.com/florianeinfalt"
