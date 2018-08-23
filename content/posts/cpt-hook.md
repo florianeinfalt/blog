@@ -14,51 +14,105 @@ events.
 
 <!--more-->
 
+A simple version of a hook decorator that would invoke one or more
+callbacks after the main function has executed could look something like
+this:
+
 {{< highlight python3 >}}
 class Hook(object):
 
     def __init__(self, func):
-        self.pre_funcs = []
-        self.post_funcs = []
+        self.callbacks = []
         self.basefunc = func
 
-    def pre(self, func):
+    def callback(self, func):
         if callable(func):
             try:
-                self.pre_funcs.remove(func)
+                self.callbacks.remove(func)
             except ValueError:
                 pass
-            self.pre_funcs.append(func)
-        return func
-
-    def post(self, func):
-        if callable(func):
-            try:
-                self.post_funcs.remove(func)
-            except ValueError:
-                pass
-            self.post_funcs.append(func)
+            self.callbacks.append(func)
         return func
 
     def __call__(self, *args, **kwargs):
-        for func in self.pre_funcs:
-            args, kwargs = func(*args, **kwargs)
         result = self.basefunc(*args, **kwargs)
-        for func in self.post_funcs:
+        for func in self.callbacks:
             newresult = func(result)
             result = result if newresult is None else newresult
         return result
 {{< /highlight >}}
 
-The hook decorator takes an arbitrary amount of pre-execution function(s)
-as well as post-execution function(s), which are themselves declared using the
-decorator syntax. The hook will pass all the `*args` and `**kwargs` that it
-will pass to the main function to the `pre` function(s).
+Usage of this simple model would be pretty striahgt forward, like so:
 
-The result of the main function will be passed to the `post` function(s).
+{{< highlight python3 >}}
+# Declaring the main function as a hook
+@Hook
+def main_func(num):
+    return int(num)
+    
+@main_func.callback
+def argument(num):
+    print('argument: {}'.format(num))
 
-The fact that we can use this hook as a Python decorator makes usage extremely
-simple:
+@main_func.callback
+def power(num):
+    return num ** 2
+
+print(main_func(4))
+
+# argument: 4
+# 16
+
+{{< /highlight >}}
+
+Now to the second version of the hook decorator, supporting pre and
+post execution callbacks.
+
+{{< highlight python3 >}}
+class Hook(object):
+
+    def __init__(self, func):
+        self.pre_callbacks = []
+        self.post_callbacks = []
+        self.basefunc = func
+
+    def pre(self, func):
+        if callable(func):
+            try:
+                self.pre_callbacks.remove(func)
+            except ValueError:
+                pass
+            self.pre_callbacks.append(func)
+        return func
+
+    def post(self, func):
+        if callable(func):
+            try:
+                self.post_callbacks.remove(func)
+            except ValueError:
+                pass
+            self.post_callbacks.append(func)
+        return func
+
+    def __call__(self, *args, **kwargs):
+        for func in self.pre_callbacks:
+            args, kwargs = func(*args, **kwargs)
+        result = self.basefunc(*args, **kwargs)
+        for func in self.post_callbacks:
+            newresult = func(result)
+            result = result if newresult is None else newresult
+        return result
+{{< /highlight >}}
+
+The hook decorator takes an arbitrary amount of pre-execution callback(s)
+as well as post-execution callback(s), which are themselves declared using
+the decorator syntax. The hook will pass all the `*args` and `**kwargs`
+that it will pass to the main function to the `pre` callback(s).
+
+The result of the main function will be passed to the `post` callback(s).
+
+The fact that we can still use this hook as a Python decorator makes usage
+extremely simple:
 
 {{< highlight python3 >}}
 # Declaring the main function as a hook
@@ -76,11 +130,11 @@ def notify(*args, **kwargs):
 # Declaring a `post` function
 @main_func.post
 def square(result):
-    result = result ** 2
-    return result
+    return result ** 2
+
 
 # Running the main function with the hooks
-main_func(4)
+print(main_func(4))
 
 # args: (4,)
 # kwargs: {}
