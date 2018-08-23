@@ -62,7 +62,6 @@ print(main_func(4))
 
 # argument: 4
 # 16
-
 {{< /highlight >}}
 
 Now to the second version of the hook decorator, supporting pre and
@@ -139,5 +138,4 @@ print(main_func(4))
 # args: (4,)
 # kwargs: {}
 # 16
-
 {{< /highlight >}}
