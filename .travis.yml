@@ -4,14 +4,16 @@ sudo: required
 install:
  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.47.1/hugo_0.47.1_Linux-64bit.deb
  - sudo dpkg -i /tmp/hugo.deb
- - sudo apt-get install -y lftp
+ - sudo apt-get install lftp
 
 script:
  - hugo
+ - echo 'Uploading...'
+ - lftp -c "set ftp:initial-prot ''; open ftp://$FTP_USER:$FTP_PASS@$FTP_HOST:21/htdocs; mirror -eRv public .; quit;"
 
-deploy:
-  - provider: script
-    script: ./deploy.sh
-    skip_cleanup: true
-    on:
-      branch: master
+# deploy:
+#   - provider: script
+#     script: ./deploy.sh
+#     skip_cleanup: true
+#     on:
+#       branch: master
