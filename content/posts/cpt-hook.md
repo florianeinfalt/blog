@@ -49,7 +49,7 @@ Usage of this simple model would be pretty striahgt forward, like so:
 @Hook
 def main_func(num):
     return int(num)
-    
+
 @main_func.callback
 def argument(num):
     print('argument: {}'.format(num))

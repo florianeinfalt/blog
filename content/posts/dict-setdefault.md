@@ -30,4 +30,4 @@ people = {
 # User 'john' might have or might not have been initialised
 # ...
 people.setdefault('john', {})['age'] = 32
-{{< highlight >}}
+{{< /highlight >}}
