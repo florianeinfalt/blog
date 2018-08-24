@@ -1,7 +1,7 @@
 baseURL = "https://florianeinfalt.de"
 languageCode = "en-gb"
 title = "Florian Einfalt – Developer"
-theme = "Hucore"
+theme = "hucore"
 
 copyright = "&copy; 2018 Florian Einfalt"
 
