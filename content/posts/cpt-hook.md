@@ -42,7 +42,7 @@ class Hook(object):
         return result
 {{< /highlight >}}
 
-Usage of this simple model would be pretty striahgt forward, like so:
+Usage of this simple model would be pretty straight forward, like so:
 
 {{< highlight python3 >}}
 # Declaring the main function as a hook
