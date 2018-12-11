@@ -8,7 +8,7 @@ install:
 
 script:
  - hugo
- - echo 'Uploading...'
 
 after_success:
- - lftp -c "open ftp://$FTP_USER:$FTP_PASS@$FTP_HOST:21/htdocs; mirror -ceRv --parallel=4 public .; quit;"
+ - echo "Uploading..."
+ - lftp -c "open ftp://$FTP_USER:$FTP_PASS@$FTP_HOST:21/htdocs; mirror -ceRv public .; quit;"
