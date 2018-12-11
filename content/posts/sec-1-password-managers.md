@@ -10,7 +10,6 @@ author: "Florian Einfalt"
 Adobe, LinkedIn, Dropbox. In the last few years, these well-known companies suffered from compromised systems, exposed user data and joined an ever-growing list of information security and privacy [nightmares](https://haveibeenpwned.com). Chances are your email address and password along with other personal data is part of the database dumps stolen and is easily accessible in certain corners of the internet. What can we do to mitigate the real-life effects of having our personal data exposed on the internet? In the first part of my series on personal information security, I'll have a look at password managers.
 <!--more-->
 
-# (Security) Password managers
 Here's a fact of life: *everybody* should use a password manager. 
 
 Password re-use across sites and services is a major security risk and makes you vulnerable to credential-stuffing (see [Wikipedia](https://en.wikipedia.org/wiki/Credential_stuffing)) or even brute-force (see [Wikipedia](https://en.wikipedia.org/wiki/Brute-force_attack)) attacks. Having a strong, unique password (think 40 random characters including upper-case, lower-case letters, numbers and special characters) for every site and service you use dramatically reduces the risk that you will fall victim to such attacks.
