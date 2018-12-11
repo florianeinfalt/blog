@@ -1,0 +1,27 @@
+---
+title: "A mere-mortal's guide to security and privacy online – Part 1: Password managers"
+date: 2018-11-27T17:30:00+01:00
+description: "Part 1: Password managers"
+categories: ["security"]
+tags: ["security"]
+draft: false
+author: "Florian Einfalt"
+---
+Adobe, LinkedIn, Dropbox. In the last few years, these well-known companies suffered from compromised systems, exposed user data and joined an ever-growing list of information security and privacy [nightmares](https://haveibeenpwned.com). Chances are your email address and password along with other personal data is part of the database dumps stolen and is easily accessible in certain corners of the internet. What can we do to mitigate the real-life effects of having our personal data exposed on the internet? In the first part of my series on personal information security, I'll have a look at password managers.
+<!--more-->
+
+# (Security) Password managers
+Here's a fact of life: *everybody* should use a password manager. 
+
+Password re-use across sites and services is a major security risk and makes you vulnerable to credential-stuffing (see [Wikipedia](https://en.wikipedia.org/wiki/Credential_stuffing)) or even brute-force (see [Wikipedia](https://en.wikipedia.org/wiki/Brute-force_attack)) attacks. Having a strong, unique password (think 40 random characters including upper-case, lower-case letters, numbers and special characters) for every site and service you use dramatically reduces the risk that you will fall victim to such attacks.
+
+Of course it is almost impossible to remember dozens of strong passwords, this is where a password manager comes in. A password manager will typically store all your password in an encrypted vault so you only have to remember 1(!) strong password which gives you access to the vault itself. Most password managers integrate with modern browsers so logging on to a website or service often is as easy as clicking on an entry in the password manager extension's menu, automatic filling of user name and password included.
+
+So you are convinced that a password manager is a good idea, how do you get up and running and how to choose? There are several options out there:
+
+- iCloud Keychain (iOS/macOS-only): this feature comes for free with Apple's operating systems iOS and macOS and integrates with their iCloud service. It's the simplest solution for the casual user or someone just getting started with password management. After activating it in your phone's settings, whenever you have to assign or change a password to an online service, the keychain will suggest a strong password and store it encrypted in iCloud and sync it to all your Apple devices. When you next login to the service, iOS/macOS will suggest to use the stored password. Over time, it will remember passwords old and new (hopefully all new and strong) and remember them on all your Apple devices. A no-frills approach to password management. [Set up iCloud Keychain – apple.com](https://support.apple.com/en-us/HT204085)
+- [1Password](https://1password.com/) (Windows/macOS/iOS/Android/Linux): my preferred password manager. Fully-featured it comes either as a stand-alone purchase or with a subscription to Agile Bits' excellent 1Password.com [Agile Bits – 1Password.com](https://1password.com/) service for individuals, families or teams and integrates into all major browsers via a plug-in. This is an approach that is obviously more involved and comes with a price tag but there are considerable upsides: a comprehensive password generator, great organisational features, categories for bank accounts, credit cards and even software licenses and rock-solid sync options using iCloud, Dropbox or 1Password.com. Last but not least it integrates with Troy Hunt's [Have I Been Pawned?](https://haveibeenpwned.com/) database to let you know when one or more passwords in your vault have been compromised in a security breach. It is definitely my tip for users that are starting to dig deeper on the subject or have more complex administration needs, such as sharing passwords with their family or team.
+- [LastPass](https://www.lastpass.com/) (Windows/macOS/iOS/Android): LastPass largely has a similar feature set as 1Password does and is comparable in price. So I guess it gets a recommendation. The one down-side I can see is that LastPass is owned by LogMeIn and I would not necessarily be comfortable using my remote login service to also manage my passwords. In case of a breach, this seems catastrophic to me. However, this is merely relevant for users of LogMeIn and a very personal destination I'm going to make.
+- Open-Source password managers: Yes, I know. We shouldn't trust code that we cannot introspect. So far so true, but this is a mere mortals guide and in my estimation the available open-source password managers, such as [KeePass](https://keepass.info/), [Passbolt](https://www.passbolt.com/) or [Padlock](https://padlock.io/) simply do not offer the simplicity of use or the ease of no or very limited maintenance and are not always available on all relevant platforms. This makes them tough to recommend for people likely to benefit from reading this.
+
+In the next article, I'll be talking about an adjacent subject to password managers, multi-factor authentication.
