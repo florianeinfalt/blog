@@ -1,6 +1,6 @@
 ---
 title: "A mere-mortal's guide to security and privacy online – Part 1: Password managers"
-date: 2018-11-27T17:30:00+01:00
+date: 2018-12-11T16:00:00+01:00
 description: "Part 1: Password managers"
 categories: ["security"]
 tags: ["security"]
