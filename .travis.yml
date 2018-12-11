@@ -11,4 +11,4 @@ script:
  - echo 'Uploading...'
 
 after_success:
- - lftp -c "set ftp:initial-prot ''; open ftp://$FTP_USER:$FTP_PASS@$FTP_HOST:21/htdocs; mirror -eRv public .; quit;"
+ - lftp -c "open ftp://$FTP_USER:$FTP_PASS@$FTP_HOST:21/htdocs; mirror -eR public .; quit;"
