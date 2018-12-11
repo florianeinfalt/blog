@@ -19,4 +19,5 @@ build
 coverage.xml
 junit-*.xml
 public/*
+deployed/*
 hugodeploy.yaml

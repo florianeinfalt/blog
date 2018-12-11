@@ -42,14 +42,14 @@ class Hook(object):
         return result
 {{< /highlight >}}
 
-Usage of this simple model would be pretty striahgt forward, like so:
+Usage of this simple model would be pretty straight forward, like so:
 
 {{< highlight python3 >}}
 # Declaring the main function as a hook
 @Hook
 def main_func(num):
     return int(num)
-    
+
 @main_func.callback
 def argument(num):
     print('argument: {}'.format(num))

@@ -1,7 +1,7 @@
 baseURL = "https://florianeinfalt.de"
 languageCode = "en-gb"
 title = "Florian Einfalt – Developer"
-theme = "Hucore"
+theme = "hucore"
 
 copyright = "&copy; 2018 Florian Einfalt"
 
@@ -17,7 +17,7 @@ sharingicons = false
 
 [params.highlight]
 style = "github"
-languages = ["python", "python3", "dockerfile"]
+languages = ["python3"]
 
 [[params.social]]
 url = "https://github.com/florianeinfalt"
