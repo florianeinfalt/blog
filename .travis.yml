@@ -11,4 +11,4 @@ script:
 
 after_success:
  - echo "Uploading..."
- - lftp -c "set ftp:ssl-force true; set ftp:ssl-auth TLS; set ssl:verify-certificate no; open ftp://$FTP_USER:$FTP_PASS@$FTP_HOST:990/htdocs; mirror -ceRv public .; quit;"
+ - lftp -c "set ftp:ssl-force true; set ftp:ssl-auth TLS; set ssl:verify-certificate no; open ftp://$FTP_USER:$FTP_PASS@$FTP_HOST:990/htdocs; mirror -ceRv --parallel=10 public .; quit;"
