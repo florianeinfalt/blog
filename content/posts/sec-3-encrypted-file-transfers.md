@@ -1,6 +1,6 @@
 ---
 title: "A mere-mortal's guide to security and privacy online – Part 3: Encrypted file transfers"
-date: 2019-02-16T12:00:00+01:00
+date: 2019-02-19T12:45:00+01:00
 description: "Part 3: Encrypted file transfers"
 categories: ["security"]
 tags: ["security"]
