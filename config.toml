@@ -2,8 +2,9 @@ baseURL = "https://florianeinfalt.de"
 languageCode = "en-gb"
 title = "Florian Einfalt – Developer"
 theme = "hucore"
+buildDrafts = true
 
-copyright = "&copy; 2018 Florian Einfalt"
+copyright = "&copy; 2018-2019 Florian Einfalt"
 
 [taxonomies]
 tag = "tags"
