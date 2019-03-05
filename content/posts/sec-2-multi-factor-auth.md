@@ -7,7 +7,7 @@ tags: ["security"]
 draft: false
 author: "Florian Einfalt"
 ---
-In the first part of this mini-series I talked about how password managers can protect you from the most common random attacks. In this post, I'll be looking at what you can do beyond password managers to further harden the security of your data: multi-factor authentication.
+In the [first part](https://florianeinfalt.de/posts/sec-1-password-managers/) of this mini-series I talked about how password managers can protect you from the most common random attacks. In this post, I'll be looking at what you can do beyond password managers to further harden the security of your data: multi-factor authentication.
 <!--more-->
 
 Let's assume an attacker stole your username and complex, 40-character password that you use for an important online service. If this was the case, the attacker would have gained unfettered access to your personal and – depending on the type of service – potentially financial data. Sounds like an uncomfortable situation.
