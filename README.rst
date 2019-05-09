@@ -1,4 +1,0 @@
-Blog
-====
-
-My personal blog
