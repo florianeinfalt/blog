@@ -1,0 +1,19 @@
+---
+title: "A mere-mortal's guide to security and privacy online – Part 4: Advertising and tracking blockers"
+date: 2019-01-01T00:00:00+01:00
+description: "Part 4: Advertising and tracking blockers"
+categories: [“privacy”]
+tags: [“privacy”]
+draft: true
+author: "Florian Einfalt"
+---
+Every computer user is familiar with the following scenario: you are planning to make a purchase of, say, an electric toothbrush or a similar consumer good. Because there are hundreds of options from different manufacturers you go on to do some research on various websites and finally search Amazon for the option with the best price. So far so good. However, when you go to check the news on the Guardian, the New York Times or a similar publication, all advertising spots are full of electric toothbrushes. Coincidence? Far from it! In this article I’ll describe how tracking works and how you can protect yourself from the most egregious methods of social and advertising networks. 
+<!--more-->
+
+But first a little bit of context as to what I will write about in this privacy-focused series of posts: whilst the security, integrity and availability is pretty black and white as to the importance to the average user – I have never met someone that didn’t care at all about being hacked or having data stored online exposed publicly – however, data privacy, its usage for advertising and more nefarious purposes and the subject of consent still seem to be somewhat a fringe topic although recently gaining traction in mainstream media. In the next posts, I want to explain how to maintain privacy online for the mere-mortal.
+
+So why do random websites we visit seem to know what we want or have recently engaged with? The answer is cross-site behavioural tracking, a technique that is being used by data harvesters such as Google, Facebook (and its entities Instagram and WhatsApp) and many others to provide services to their customers: advertisers. In contrast to popular opinion this does not mean that your personal data is being sold to advertising networks, their service is more like a matching service based on your expressed convictions, interests and past behaviour which data harvesters collect to create a model that can be matched with the advertisers target audience, so that they can very efficiently decide in near real-time whether to advertise to you or not.
+
+“But I don’t post anything on Facebook!”, you might think. This is where it gets interesting: most popular websites today allow you to sign up using your Facebook or Google account and/or offer integrations via “Like” buttons or sharing functionality. These integrations are able to track what you are doing on the internet and collect all your usage data for the data harvester independently of whether you are currently logged in to the social network or other service in question. This is done by connecting a small piece of data called a “cookie” that is saved when you interact with the service and is then used to identifiably track you and your behaviour on virtually every other popular website. These cookies persist even beyond a restart of your browser or operating system and would have to be manually deleted should you want to get rid of them. Facebook has long been rumoured to the create so called “shadow profiles” to enable this kind of tracking for people that do not even have a Facebook account, the initial cookie just gets saved the first time a website displays a like button to you! While there is no independent confirmation of this, it seems likely judging by Facebook’s behaviour and their privacy-related scandals in the last 12 months.
+
+Let’s assumes the above proposition seems undesirable to you, what can you do to stop this sort of tracking in your browsers on PC/Mac and mobile devices?
