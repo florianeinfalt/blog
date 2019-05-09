@@ -1,10 +1,10 @@
 ---
 title: "A mere-mortal's guide to security and privacy online – Part 4: Advertising and tracking blockers"
-date: 2019-01-01T00:00:00+01:00
+date: 2019-05-09T12:45:00+01:00
 description: "Part 4: Advertising and tracking blockers"
 categories: [“privacy”]
 tags: [“privacy”]
-draft: true
+draft: false
 author: "Florian Einfalt"
 ---
 Every computer user is familiar with the following scenario: you are planning to make a purchase of, say, an electric toothbrush or a similar consumer good. Because there are hundreds of options from different manufacturers you go on to do some research on various websites and finally search Amazon for the option with the best price. So far so good. However, when you go to check the news on the Guardian, the New York Times or a similar publication, all advertising spots are full of electric toothbrushes. Coincidence? Far from it! In this article I’ll describe how tracking works and how you can protect yourself from the most egregious methods of social and advertising networks. 
