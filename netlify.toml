@@ -3,4 +3,4 @@
     publish = "public"
     
 [context.drafts]
-    command = "hugo -b drafts.florianeinfalt.de"
+    command = "hugo -b https://drafts.florianeinfalt.de/"
