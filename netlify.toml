@@ -1,6 +1,9 @@
 [build]
-    command = "hugo"
+    command = "hugo --gc --minify"
     publish = "public"
+    
+[context.production.environment]
+    HUGO_ENV = "production"
     
 [context.drafts]
     command = "hugo -b https://drafts.florianeinfalt.de/"
