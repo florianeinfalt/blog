@@ -1,6 +1,6 @@
 ---
 title: "A mere-mortal's guide to security and privacy online – Part 5: Instant messaging"
-date: 2019-05-24T18:45:00+01:00
+date: 2019-05-24T12:45:00+01:00
 description: "Part 5: Instant messaging"
 categories: [“privacy”]
 tags: [“privacy”]
