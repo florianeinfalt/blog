@@ -1,6 +1,6 @@
 ---
 title: "Automating Hugo blog post creation using Shortcuts"
-date: 2019-05-27T16:45:00Z
+date: 2019-05-27T11:00:00Z
 description: "Automating Hugo blog post creation using Shortcuts"
 categories: ["workflow"]
 tags: ["workflow"]
