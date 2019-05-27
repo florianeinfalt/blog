@@ -52,9 +52,9 @@ An operator‘s track record on privacy is a delayed indicator of their trust-wo
 
 With instant messaging, the conventional wisdom still is: „I‘m gonna use the service that most of my friend‘s use.“ and mostly it is true, IM is pretty useless if you have no-one to message. However, privacy and data protection will only gain in importance and our private communication is some of the most valuable and precious data we have which is worthy of protection. Therefore the choice of IM service really matters and should not be made off the cuff.
 
-My clear and unequivocal recommendation is Signal. There is virtually no negative to be found in the service and positives include a strong encryption protocol, a bare minimum metadata capture, audio and video telephony and wide availability on mobile platforms.
+My clear and unequivocal recommendation is Signal. There is virtually no negative to be found in the service and positives include a strong encryption protocol, a bare minimum metadata capture, audio and video telephony and wide availability on mobile platforms along with extensive sharing functionality for photos, videos and (for some, most importantly) GIFs.
 
-For iOS users, iMessage is recommended due to the low barrier of entry to secure messaging a battle-tested protocol and ease of use.
+For iOS users, iMessage is recommended due to the low barrier of entry to secure messaging, a battle-tested protocol and ease of use.
 
 Threema is a fine app, but it might be hard to convince people to pay for their instant messaging.
 
