@@ -1,7 +1,7 @@
 ---
-title: "Accessing my home server with Secure ShellFish (beta)"
+title: "Accessing my home server with Secure ShellFish (Beta)"
 date: 2019-06-02T10:00:00Z
-description: "Accessing my home server with Secure ShellFish (beta)"
+description: "Accessing my home server with Secure ShellFish (Beta)"
 categories: ["workflow"]
 tags: ["workflow"]
 draft: false
