@@ -1,6 +1,6 @@
 ---
 title: "Accessing my home server with Secure ShellFish (Beta)"
-date: 2019-06-02T10:00:00Z
+date: 2019-06-06T11:00:00Z
 description: "Accessing my home server with Secure ShellFish (Beta)"
 categories: ["workflow"]
 tags: ["workflow"]
@@ -16,13 +16,13 @@ SSH/SFTP supports key-based authentication which means that it is considerably m
 
 Beyond managing SSH keys, the only thing you will have to use the Secure ShellFish app itself for, is configuring connections to your server(s). This is dead simple – for me, as simple as typing a hostname, selecting my SSH key and tapping the “Connect” button. Optionally, you can define a root directory on the server you’d like to start browsing from and, in the Pro version which will be an In-App Purchase when the app is released, Secure ShellFish will also support Offline Files for when you are not connected to your server but still want to access important files.
 
-Secure ShellFish implements modern iOS APIs and acts as a File Provider, exposing all it’s file management features to the iOS Files app. This means that all further interaction with your servers is done in the familiar environment of the Files app thus enabling drag and drop and the ability to easily share files between multiple File Providers (such as iCloud Drive, Dropbox and Google Drive). One feature I specifically appreciate is the little hourglass icon that is displayed when the app is loading content through a slow connection, this so much more useful that the blank white screen usually displayed by other File Providers in the Files app.
+Secure ShellFish implements modern iOS APIs and acts as a File Provider, exposing all it’s file management features to the iOS Files app. This means that all further interaction with your servers happens in the familiar environment of the Files app, thus, enabling drag and drop and the ability to easily share files between multiple File Providers (such as iCloud Drive, Dropbox and Google Drive). One feature I specifically appreciate is the little hourglass icon that is displayed when the app is loading content through a slow connection, this is so much more useful than the blank white screen usually displayed by other File Providers in the Files app.
 
 Secure ShellFish uses iOS notifications to let the user know about issues with connections which is super helpful when on spotty cellular or Wifi connections and is something that is usually handled poorly by other apps implementing the File Provider API.
 
 So how has Secure ShellFish changed my workflow in regards to accessing files on my home server on iOS? The answer is: *significantly*.
 
-I was already accessing my home network through an OpenVPN service that is running on my Mac mini, but now I am able to switch off all other file transfer protocols (SMB, WebDAV) on both the Mac as well as the Synology NAS and solely rely on the tried and tested SSH/SFTP protocol with strong authentication for both administrative and file transfer tasks. Not only does this reduce the potential exposure to vulnerabilities but it also simplifies all interaction with the server to a single protocol and authentication method. In fact, the NAS does not expose any services other than NFS (so the Mac mini can read and write files on it) which is locked down to only allow connections from the Mac mini itself.
+I was already accessing my home network through an OpenVPN service that is running on my Mac mini, but now I am able to switch off all other file transfer protocols (SMB, WebDAV) on both the Mac as well as the Synology NAS and solely rely on the tried and tested SSH/SFTP protocol with strong authentication for both administrative and file transfer tasks. Not only does this reduce the potential exposure to vulnerabilities but it also simplifies every interaction with the server to a single protocol and authentication method. In fact, the NAS does not expose any services other than NFS (so the Mac mini can read and write files on it) which is locked down to only allow connections from the Mac mini itself.
 
 On the iOS client-side, I have been able to get rid of apps like FileBrowser, FileExplorer and Synology’s “DS file” app which I used in a round-robin fashion with different password-authentication-based protocols (SMB, WebDAV) until now and was able to unify all file transfers to use Secure ShellFish, which, even though it is still in Beta, already seems more reliable and performant than these apps I now consider legacy. This has enabled me to create more efficient workflows that reduce the cognitive load as a result of relying on a single, well-working solution not three, in my opinion, only semi-reliable solutions.
 
