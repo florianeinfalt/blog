@@ -37,9 +37,9 @@ class Task(object):
 
 This object looks pretty common, basically a few setters and a command property. But have a look at all those setter functions – they all `return self` – which is slightly less common.
 
-By returning `self` (the class instance) for every method on the object that modifies attributes we enable method chaining and therefore implement a fluent interface.
+By returning `self` (the class instance) for every method on the object that modifies attributes, we enable method chaining and therefore implement a fluent interface.
 
-This means that rather than setting attributes one line at a time, we can now do all of this in a single line of code and therefore increase the simplicity and readability of said code significantly.
+This means that rather than setting attributes one line at a time, we can now configure the `Task` in a single line of code and therefore increase the simplicity and readability of our code significantly.
 
 So instead of the standard, _non-fluent_ way of using the API,
 
