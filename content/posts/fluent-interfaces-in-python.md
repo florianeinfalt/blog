@@ -49,6 +49,7 @@ task1 = Task()
 task1.name('pre-execute')
 task1.cpu(2)
 task1.ram(8)
+task1.dependencies([])
 print(task1.command)
 
 task2 = Task()
@@ -70,7 +71,7 @@ we can now make our code far more concise and readable:
 
 {{< highlight python3 >}}
 # Usage of the above API with the fluent interface
-task1 = Task().name('pre-execute').cpu(2).ram(8)
+task1 = Task().name('pre-execute').cpu(2).ram(8).dependencies([])
 print(task1.command)
 task2 = Task().name('main').cpu(8).ram(32).dependencies([task1._name])
 print(task2.command)
