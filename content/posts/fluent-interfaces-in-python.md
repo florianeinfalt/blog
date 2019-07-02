@@ -12,30 +12,20 @@ One of the lesser known techniques when designing APIs in Python is the concept 
 Assume a basic `Task` object, which might look something like this:
 
 {{< highlight python3 >}}
-class Task(object):
-    def __init__(self):
-        self._name = None
-        self._cpu = None
-        self._ram = None
-        self._dependencies = []
-        
+class Task(object):        
     def name(self, name):
-        # Evaluate name
         self._name = name
         return self
 
     def cpu(self, cpu):
-        # Evaluate CPU 
         self._cpu = cpu
         return self
         
     def ram(self, ram):
-        # Evaluate RAM
         self._ram = ram
         return self
         
     def dependencies(self, dependencies):
-        # Evaluate dependencies
         self._dependencies = dependencies
         return self
    
@@ -45,14 +35,16 @@ class Task(object):
         return cmd
 {{< /highlight >}}
 
-This object looks pretty common, an `__init__` function, a few setters and a command property. But have a look at all those setter functions – they all `return self` at the end which is slightly less common.
+This object looks pretty common, basically a few setters and a command property. But have a look at all those setter functions – they all `return self` – which is slightly less common.
 
-By returning `self` for every method on the object that modifies attributes we enable method chaining and therefore implement a fluent interface. This means that rather than setting attributes a line at the time, we can now do all of this in a single line of code and therefore increase the simplicity and readability of said code significantly.
+By returning `self` (the class instance) for every method on the object that modifies attributes we enable method chaining and therefore implement a fluent interface.
+
+This means that rather than setting attributes one line at a time, we can now do all of this in a single line of code and therefore increase the simplicity and readability of said code significantly.
 
 So instead of the standard, _non-fluent_ way of using the API,
 
 {{< highlight python3 >}}
-# Usage of the above API _without_ the fluent interface
+# Usage of the above API without the fluent interface
 task1 = Task()
 task1.name('pre-execute')
 task1.cpu(2)
@@ -77,7 +69,7 @@ print(task3.command)
 we can now make our code far more concise and readable:
 
 {{< highlight python3 >}}
-# Usage of the above API _with_ the fluent interface
+# Usage of the above API with the fluent interface
 task1 = Task().name('pre-execute').cpu(2).ram(8)
 print(task1.command)
 task2 = Task().name('main').cpu(8).ram(32).dependencies([task1._name])
