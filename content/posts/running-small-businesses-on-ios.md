@@ -1,7 +1,7 @@
 ---
-title: "Running a small business on iOS"
+title: "Running small businesses on iOS"
 date: 2019-07-22T16:45:00Z
-description: "Running a small business on iOS"
+description: "Running small businesses on iOS"
 categories: ["workflow"]
 tags: ["workflow"]
 draft: false
@@ -34,7 +34,7 @@ Outgoing invoices are easily created and approved in the Xero app, ready to be s
 
 # Time Management with Things and Fantastical
 
-Juggling multiple clients, the administrative demands of two businesses with vastly different needs and making sure accounting and tax deadlines are adhered to can be a challenge at the best of times. I rely on some of the best citizens of the iOS eco system, Things and Fantastical with their respective powerful feature set, to stay on top of it all.
+Juggling multiple clients, the administrative demands of two businesses with vastly different needs and making sure accounting and tax deadlines are adhered to can be a challenge at the best of times. I rely on some of the best citizens of the iOS eco system, Things and Fantastical with their powerful feature sets, to stay on top of it all.
 
 
 
