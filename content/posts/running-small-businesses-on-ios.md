@@ -7,7 +7,7 @@ tags: ["workflow"]
 draft: false
 author: "Florian Einfalt"
 ---
-As I have mentioned on previous workflow posts, I run two small businesses, a freelance business through which I offer Python development services and a start-up, flow.studio, which is a project management platform that specifically targets the fashion industry. Managing my time, invoicing as well as finance can be a time sink especially if you do not have specialist employees or partners to fall back on. I do work with an accountant who deals with my taxes, but all other admin is part of my daily workload.
+As I have mentioned on previous workflow posts, I run two small businesses, a freelance business through which I offer Python development services and a start-up, flow.studio, which is a project management platform that specifically targets the fashion industry. Managing my time, invoicing as well as bookkeeping and taxes can be a time sink especially if you do not have specialist employees or partners to fall back on. I do work with an accountant who deals with my taxes, but all other admin is part of my daily workload.
 
 Efficiency is crucial in this regard as the amount of time I spend on admin obviously comes off the time I can sell to my clients or make progress on our product. In this post, I will explain how I integrate different services for banking, bookkeeping, time management and how all of this is glued together with Shortcuts on iOS.
 <!--more-->
@@ -35,6 +35,10 @@ Outgoing invoices are easily created and approved in the Xero app, ready to be s
 # Time Management with Things and Fantastical
 
 Juggling multiple clients, the administrative demands of two businesses with vastly different needs and making sure accounting and tax deadlines are adhered to can be a challenge at the best of times. I rely on some of the best citizens of the iOS eco system, Things and Fantastical with their powerful feature sets, to stay on top of it all.
+
+Whenever I get a request from one of my clients, I have to check my availability in the time frame requested. Making a mistake on that can lead to an embarrassing double-booking and at least one less than happy client. In order to not fall victim to this situation, I decided to migrate from my manual “create-an-event-and-manually-copy-it-to-all-relevant-dates” process to an automated process of blocking availability in my calendar using a Siri Shortcut: “Add Booking” lives on my home screen and is a multi-step Shortcut to decide what exactly to add to my calendar.
+
+In the first step, I select one of my clients from the iPad’s contact database, then I enter a start and end date and select the relevant week days I have agreed to do work for the client. After a confirmation prompt, all this information is being collated into a format that is compatible with Fantastical’s natural language interface and passed to Fantastical. This creates a recurring event on the selected week days between start and end date and puts it on my “Freelance” calendar once I tap the “Create” button, ensuring that a double-booking is much less likely than in my previous “system”.
 
 
 
