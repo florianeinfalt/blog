@@ -1,6 +1,6 @@
 ---
 title: "Running small businesses on iOS"
-date: 2019-07-22T16:45:00Z
+date: 2019-08-06T16:45:00Z
 description: "Running small businesses on iOS"
 categories: ["workflow"]
 tags: ["workflow"]
