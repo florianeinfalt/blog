@@ -81,7 +81,7 @@ Ich nutze moderne iOS-Features wie Drag & Drop (zum Verschieben von Kacheln) sow
 
 Beide Aspekte der App – eine einfach zu verstehende Benutzeroberfläche sowie eine langsame Aussprache – sind für Aphasie-Patienten von besonders hoher Bedeutung, da sie häufig an einer verringerten Fähigkeit zur Verarbeitung komplexer visueller und akustischer Reize leiden.
 
-Im Moment ist die App auf Deutsch und Englisch (meine Muttersprache sowie die Sprache meiner Wahlheimat) verfügbar. Ich suche aber aktiv nach Muttersprachlern anderer Sprachen, um die App auch Menschen anderer Länder zugänglich machen zu können. Wer eine Übersetzung in einer weiteren Sprache beitragen möchte, kann mir gerne eine [Email senden](mailto:info@florianeinfalt.de).
+Im Moment ist die App auf Deutsch und Englisch (meine Muttersprache sowie die Sprache meiner Wahlheimat) verfügbar. Ich suche aber aktiv nach Muttersprachlern anderer Sprachen, um die App auch Menschen anderer Länder zugänglich machen zu können. Wer eine Übersetzung in einer weiteren Sprache beitragen möchte, kann mir gerne eine [E-mail senden](mailto:info@florianeinfalt.de).
 
 Mein Wunsch ist, dass meine kleine App, die gerade dabei ist, den Alltag meiner Eltern positiv zu verändern, dies auch in vielen anderen Familien bewirken kann. Ich bin davon überzeugt, dass Technologien positive Entwicklungen anstoßen und somit zur Verbesserung der Lebensumstände beitragen können, nicht zuletzt - wie im Fall meines Vaters - unter schwierigen Umständen. Somit habe ich mich dazu entschlossen, die App zu veröffentlichen, in der Hoffnung, dass sie auch auf vielen anderen iPads dazu beitragen kann, die Kommunikation von Betroffenen mit ihrem Umfeld zu erleichtern und zu verbessern. 
 
