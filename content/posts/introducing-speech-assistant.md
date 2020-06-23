@@ -4,13 +4,13 @@ date: 2020-06-16T12:00:00+01:00
 description: "A communications tool for Aphasia patients"
 categories: ["swift", "personal"]
 tags: ["swift", "personal"]
-draft: true
+draft: false
 author: "Florian Einfalt"
 ---
 
 ___________
 
-_This article is available in [English](#introducing-speech-assistant) and [German](#darf-ich-vorstellen-speech-assistant)._
+_This article is available in [English](#introducing-aphasia-speech-assistant) and [German](#wo-worte-fehlen--der-aphasie-sprachassistent)._
 
 ___________
 
@@ -44,47 +44,45 @@ I implemented modern iOS features such as drag & drop (to re-order phrases) and 
 
 At the time of writing, the app is available in German and English – the languages I have a reasonable grasp of – but I am looking to extend the list of supported languages with the help of native speakers, so [email](mailto:info@florianeinfalt.de) me if you want to contribute localisation in your language.
 
-[Usage report]
-
-I really hope that my project and the real-life changes it has enabled in my family do not stay limited to us. I believe that technology can inspire positive change and improve people's lives especially in less than ideal circumstances such as my Dad's. That is why I decided to release this app in the first place and why I want to get this app onto as many people's iPads as possible.
+I really hope that my project and the real-life changes it is starting to enable in my family do not stay limited to us. I believe that technology can inspire positive change and improve people's lives especially in less than ideal circumstances such as my Dad's. That is why I decided to release this app in the first place and why I want to get this app onto as many people's iPads as possible.
 
 [Aphasia Speech Assistant]() is a free download on the App Store.
 ___________
     
-# Darf ich vorstellen? Der Aphasie Sprach Assistent
+# Wo Worte fehlen – Der Aphasie Sprachassistent
 
-Im Dezember 2013 erlitt mein Vater eine Reihe von Schlaganfällen und eine Gehirnblutung. Nach mehrmonatiger Rehabilitation wurde meine Familie mit unserer neuen Realität konfrontiert: **Aphasie**. Die Definition von _Aphasie_ ist allgemein eher unbekannt (ich hatte noch nie zuvor davon gehört), daher poste ich hier die Kurzzusammenfassung von [Wikipedia](https://de.wikipedia.org/wiki/Aphasie):
+Im Dezember 2013 erlitt mein Vater eine Reihe von Schlaganfällen und eine Gehirnblutung. Nach vielen Monaten auf Reha wurde meine Familie mit unserer neuen Realität konfrontiert: „**Aphasie**“. All diejenigen, die - so wie ich 2014 - mit diesem Begriff nichts anfangen können, finden im Folgenden einen kurzen Auszug aus [Wikipedia](https://de.wikipedia.org/wiki/Aphasie), der dieses Krankheitsbild in Kürze auf den Punkt bringt:
 
 > Eine Aphasie [...] ist eine erworbene Störung der Sprache aufgrund einer Läsion (Schädigung) in der dominanten, meist der linken, Hemisphäre des Gehirns. [...] Aphasien treten nach verschiedenen Erkrankungen (Schlaganfall, Schädel-Hirn-Trauma, Gehirnblutung nach Venenthrombose, Tumoren, entzündlichen Erkrankungen, Intoxikation) nach abgeschlossenem Spracherwerb auf.
 
-In unserem Fall bedeutet _Aphasie_, dass die Fähigkeit meines Vaters sich verbal auszudrücken auf ein paar Sprachfetzen, die er sich während der Reha hart erarbeiten musste, zusammengeschrumpft ist. In der Hauptsache sind es die folgenden Wörter: _"Ja", "Nein", "Gut", "Nicht gut", "Scheiße"_.
+Für meinen Vater bedeutete und bedeutet dies letztlich, dass seine Fähigkeit, sich mit Worten auszudrücken, seitdem auf einige wenige Sprachfetzen, die er sich während der Reha hart erarbeiten musste, beschränkt ist: _„Ja“, „Nein“, „Gut“, „Nicht gut“ und „Scheiße“_.
 
-Allerdings spiegelt diese Auswahl in keinem Fall seine Fähigkeit wider Argumentationen zu folgen, sich seine eigene Meinung zu bilden oder komplexe Zusammenhänge zu verstehen: auf Nachfrage identifiziert er aus einem Berg von elektrischen Widerständen ohne Probleme den Widerstand mit 50 Ohm Impedanz und lacht herzlich über Witze auf Englisch [er ist deutscher Muttersprachler, sprach vor seiner Erkrankung aber fließend Englisch] — intellektuell betrachtet ist er, so gut wir dies beurteilen können, ganz der alte nur eben ohne sein Sprachvermögen.
+Diese verbale Einschränkung spiegelt jedoch in keiner Weise wider, dass er trotz allem nach wie vor in der Lage ist, komplexen Diskussionen zu folgen, sich eine differenzierte eigene Meinung zu bilden und komplizierte Zusammenhänge zu verstehen:
 
-Zu Beginn ist es besonders schwer einem geliebten Menschen dabei zusehen zu müssen wie er sich an den scheinbar einfachsten Aufgaben abarbeitet und von Tag zu Tag frustrierter mit seiner Situation zu sein scheint. Langfristig und nachhaltig werden aber die täglichen Anstrengungen der engsten Mitmenschen besonders deutlich, als Beispiel: meine Mutter, die nicht selten erst nach 20-30 Minuten "Ja-Nein-Fragen" herausfindet wen sie denn nun zurückrufen soll.
+Wenn er konkret danach gefragt wird, erkennt er aus einem Berg von elektrischen Widerständen mühelos den korrekten Widerstand basierend auf der Farbkodierung und er lacht herzlich über Witze auf Englisch. (Seine Muttersprache ist Deutsch, allerdings hat er vor seiner Erkrankung fließend Englisch gesprochen.) - Auf intellektueller Ebene ist er also – soweit wir dies von außen beurteilen können – ganz der Alte, jedoch ohne sein Sprachvermögen.
 
-In den Jahren nach der akuten Phase der Krankheit wurden meinen Eltern immer wieder Apps zum spielerischen Wiedererlernen des Sprachvermögens von Logopäden als Trainingsmethode empfohlen. Doch da mein Vater zu diesem Zeitpunkt bereits Ende 60 war, blieben seine Anstrengungen "das nächste Level zu erreichen" leider weitestgehend erfolglos.
+Für uns als Familie war die Krankheit meines Vaters ein großer Einschnitt im Leben: Auf der einen Seite ist es schmerzlich, dabei zuzusehen, wie ein geliebter Mensch an den scheinbar einfachsten Aufgaben des Alltags verzweifelt und dabei immer frustrierter wird. Auf der anderen Seite zeigt sich spätestens über einen längeren Zeitraum hinweg die große Herausforderung, vor die die Situation gerade die engsten Mitmenschen stellt: Wo beispielsweise unter normalen Umständen ein kurzer Satz ausgereicht hätte, findet meine Mutter nicht selten erst nach 20 bis 30 Minuten „Ja-Nein-Fragen“ heraus, wen sie zurückrufen soll.
 
-Seit Anfang diesen Jahres fällt es meinem Vater immer schwerer sich korrekt und sicher mit "Ja" und "Nein" zu artikulieren, was die tägliche Kommunikation mit meiner Mutter weiter erschwert. Überzeugt vom Potential von Technologie nahm ich die Entwicklung zum Anlass mich an die Arbeit zu machen, begann mich mit Swift und iOS Entwicklung zu beschäftigen und eine kleine Alltagshilfe zu programmieren.
+In den ersten Jahren der Krankheit wurden meinen Eltern von Logopäden diverse Apps zum spielerischen (Wieder-)Erlernen der Sprache als Trainingsmethode empfohlen. Auf Grund seines Alters - damals Ende 60 - blieb der Versuch meines Vaters, mit Hilfe dieser Programme größere Fortschritte zu erzielen, leider weitestgehend erfolglos.
 
-Anstatt mich auf das Wiedererlernen von Sprache durch Training zu konzentrieren, sollte es meine App ermöglichen die Sprachsynthese Funktionen in iOS zum Kombinieren von Worten und Sätzen zu nutzen und so "durch das iPad" zu sprechen. *Statt eines weiteren Sprach Trainers wollte ich einen Sprach Assistenten entwickeln.*
+Seit Beginn dieses Jahres fällt meiner Mutter vermehrt auf, dass es für meinen Vater immer schwieriger wird, seine Worte „Ja“ und „Nein“ situationsangepasst und inhaltlich korrekt zu verwenden, was die alltägliche Kommunikation natürlich weiter erschwert. Betroffen von dieser Entwicklung und überzeugt vom helfenden  Potential von Technologie machte ich mich an die Arbeit, um - nachdem ich mich mit Swift und iOS-Entwicklung beschäftigt hatte - eine kleine Alltagshilfe für meinen Vater zu programmieren.
 
-Nach etwa sechs Wochen Arbeit kann ich nun das Ergebnis meines Projekts vorstellen: den **Aphasie Sprach Assistenten**.
+Anstatt mich dabei jedoch - wie bei den oben genannten Apps - auf den Wiedererwerb von Sprache zu konzentrieren, sollte es meine App ermöglichen, „durch das iPad zu sprechen“, indem die Sprachsynthese-Funktionen in iOS zur Kombination von Worten und Sätzen genutzt werden. _Mein Ziel war also, statt eines weiteren Sprachtrainers einen Sprachassistenten für meinen Vater zu entwickeln und dadurch eine echte Unterstützung im Alltag und in der Kommunikation meiner Eltern zu schaffen._
+
+Nach gut sechs Wochen Arbeit freue ich mich nun, das Ergebnis meines Projekts vorstellen zu können: Den **Aphasie Sprachassistenten**.
 
 ![Icon](/Icon-256@Rounded.png)
 
-Der Aphasie Sprach Assistent ist eine einfache und speziell für die Bedürfnisse von Aphasie Patienten gestaltete Sprachsynthese App für das iPad.
+Der Aphasie Sprachassistent ist eine einfache, speziell für die Bedürfnisse von Aphasie-Patienten gestaltete Sprachsynthese-App für das iPad.
 
-Die App ist in elf Kategorien des täglichen Lebens wie zum Beispiel "Personen", "Aktivitäten", "Zeiten" oder "Orte" unterteilt. Jede Kategorie enthält große Kacheln mit Wörtern oder kurzen Sätzen die jeweils entweder mit einem Emoji Symbol oder Foto assoziiert sind. Drückt man auf eine Kachel spricht das iPad den Text aus und zeigt das Symbol oder Bild sowie den Text groß in der Mitte des Bildschirms an. Dies erhöht den Wiedererkennungswert einzelner Kacheln für den Benutzer.
+Die App ist in elf Kategorien des täglichen Lebens unterteilt, von „Personen“ und „Aktivitäten“ über „Zeiten“ bis hin zu „Orte“. Jede dieser Kategorien enthält eine bestimmte Anzahl großer Kacheln mit Wörtern oder kurzen Sätzen, die jeweils entweder mit einem Emoji-Symbol oder einem Foto verknüpft sind, um den Wiedererkennungswert für den Benutzer zu erhöhen. Tippt man auf eine Kachel, spricht das iPad den Text aus und zeigt das Symbol oder das Bild sowie den Text groß in der Mitte des Bildschirms an, wodurch zusätzlich die Merkfähigkeit gesteigert werden soll.
 
-Ich nutze moderne iOS Features wie Drag & Drop (zum verschieben von Kacheln) sowie Kontextmenüs (um an Bearbeitungs- und Löschfunktion zu gelangen) um die Benutzeroberfläche für Benutzer so einfach wie möglich zu gestalten und gleichzeitig Betreuern nützliche Anpassungsfunktionen zu bieten. Zudem kann die Geschwindigkeit der Aussprache für jeden Ausdruck in der App individuell eingestellt werden.
+Ich nutze moderne iOS-Features wie Drag & Drop (zum Verschieben von Kacheln) sowie Kontextmenüs (um an Bearbeitungs- und Löschfunktion zu gelangen), um die Benutzeroberfläche für die Benutzer so einfach wie möglich zu gestalten. Gleichzeitig soll die App dadurch Betreuern die Möglichkeit bieten, einzelne Funktionen individuell anpassen zu können. Darüber hinaus kann die Geschwindigkeit der Aussprache für jeden Begriff in der App gesondert eingestellt werden.
 
-Eine einfach zu verstehende Benutzeroberfläche gepaart mit langsamer, deutlicher Aussprache ist im Kontext von Aphasie von besonders hoher Priorität, da Patienten oft an einer verringerten Fähigkeit zur Verarbeitung von komplexen visuellen und akustischen Situationen leiden. 
+Beide Aspekte der App – eine einfach zu verstehende Benutzeroberfläche sowie eine langsame Aussprache – sind für Aphasie-Patienten von besonders hoher Bedeutung, da sie häufig an einer verringerten Fähigkeit zur Verarbeitung komplexer visueller und akustischer Reize leiden.
 
-Im Moment ist die App auf Deutsch und Englisch (Sprachen die ich persönlich einigermaßen verstehe) verfügbar, ich suche aber aktiv nach weiteren Muttersprachlern um die App noch mehr Menschen zugänglich machen zu können. Wenn du also eine Übersetzung für deine Sprache beitragen möchtest, [emaile](mailto:info@florianeinfalt.de) mir bitte.
+Im Moment ist die App auf Deutsch und Englisch (meine Muttersprache sowie die Sprache meiner Wahlheimat) verfügbar. Ich suche aber aktiv nach Muttersprachlern anderer Sprachen, um die App auch Menschen anderer Länder zugänglich machen zu können. Wer eine Übersetzung in einer weiteren Sprache beitragen möchte, kann mir gerne eine [Email senden](mailto:info@florianeinfalt.de).
 
-[Usage report]
-
-Ich hoffe, dass meine kleine App und die alltäglichen positiven Veränderungen die sie ermöglicht hat nicht auf meine Familie beschränkt bleiben. Ich glaube, dass Technologie zur Verbesserung von Lebensqualität beitragen kann, auch wenn die Umstände wie im Falle meines Vaters nicht ideal sind. Dies ist der Grund weshalb ich mich für die Veröffentlichung der App entschieden habe und weshalb ich mir wünsche, dass die App auf so vielen iPads wie möglich zu einer Minderung der Auswirkungen von Aphasie auf Patienten und Familien beitragen kann.
+Mein Wunsch ist, dass meine kleine App, die gerade dabei ist, den Alltag meiner Eltern positiv zu verändern, dies auch in vielen anderen Familien bewirken kann. Ich bin davon überzeugt, dass Technologien positive Entwicklungen anstoßen und somit zur Verbesserung der Lebensumstände beitragen können, nicht zuletzt - wie im Fall meines Vaters - unter schwierigen Umständen. Somit habe ich mich dazu entschlossen, die App zu veröffentlichen, in der Hoffnung, dass sie auch auf vielen anderen iPads dazu beitragen kann, die Kommunikation von Betroffenen mit ihrem Umfeld zu erleichtern und zu verbessern. 
 
 Der [Aphasie Sprach Assistent]() ist kostenlos im App Store erhältlich.
