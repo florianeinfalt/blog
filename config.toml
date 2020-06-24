@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "Florian Einfalt – Developer"
 theme = "hucore"
 
-copyright = "&copy; 2018-2019 Florian Einfalt"
+copyright = "&copy; 2018-2020 Florian Einfalt"
 
 [taxonomies]
 tag = "tags"
