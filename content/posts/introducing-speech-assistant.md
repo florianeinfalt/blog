@@ -46,7 +46,7 @@ At the time of writing, the app is available in German and English – the langu
 
 I really hope that my project and the real-life changes it is starting to enable in my family do not stay limited to us. I believe that technology can inspire positive change and improve people's lives especially in less than ideal circumstances such as my Dad's. That is why I decided to release this app in the first place and why I want to get this app onto as many people's iPads as possible.
 
-[Aphasia Speech Assistant]() is a free download on the App Store.
+[Aphasia Speech Assistant](https://apps.apple.com/app/id1516334219) is a free download on the App Store.
 ___________
     
 # Wo Worte fehlen – Der Aphasie Sprachassistent
@@ -85,4 +85,4 @@ Im Moment ist die App auf Deutsch und Englisch (meine Muttersprache sowie die Sp
 
 Mein Wunsch ist, dass meine kleine App, die gerade dabei ist, den Alltag meiner Eltern positiv zu verändern, dies auch in vielen anderen Familien bewirken kann. Ich bin davon überzeugt, dass Technologien positive Entwicklungen anstoßen und somit zur Verbesserung der Lebensumstände beitragen können, nicht zuletzt - wie im Fall meines Vaters - unter schwierigen Umständen. Somit habe ich mich dazu entschlossen, die App zu veröffentlichen, in der Hoffnung, dass sie auch auf vielen anderen iPads dazu beitragen kann, die Kommunikation von Betroffenen mit ihrem Umfeld zu erleichtern und zu verbessern. 
 
-Der [Aphasie Sprach Assistent]() ist kostenlos im App Store erhältlich.
+Der [Aphasie Sprach Assistent](https://apps.apple.com/app/id1516334219) ist kostenlos im App Store erhältlich.
