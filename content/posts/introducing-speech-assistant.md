@@ -85,4 +85,4 @@ Im Moment ist die App auf Deutsch und Englisch (meine Muttersprache sowie die Sp
 
 Mein Wunsch ist, dass meine kleine App, die gerade dabei ist, den Alltag meiner Eltern positiv zu verändern, dies auch in vielen anderen Familien bewirken kann. Ich bin davon überzeugt, dass Technologien positive Entwicklungen anstoßen und somit zur Verbesserung der Lebensumstände beitragen können, nicht zuletzt - wie im Fall meines Vaters - unter schwierigen Umständen. Somit habe ich mich dazu entschlossen, die App zu veröffentlichen, in der Hoffnung, dass sie auch auf vielen anderen iPads dazu beitragen kann, die Kommunikation von Betroffenen mit ihrem Umfeld zu erleichtern und zu verbessern. 
 
-Der [Aphasie Sprach Assistent](https://apps.apple.com/app/id1516334219) ist kostenlos im App Store erhältlich.
+Der [Aphasie Sprach Assistent](https://apps.apple.com/de/app/id1516334219) ist kostenlos im App Store erhältlich.
