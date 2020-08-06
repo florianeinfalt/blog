@@ -31,7 +31,7 @@ class Task(object):
    
     @property 
     def command(self):
-        cmd = f'{self._name} --cpu {self._cpu} --ram {self._ram} --dep {self._dependencies}'
+        cmd = [self._name, '--cpu', self._cpu '--ram', self._ram, '--dep', self._dependencies]
         return cmd
 {{< /highlight >}}
 
